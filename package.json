@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "aws-sdk": "^2.1341.0",
+    "axios": "^1.3.5",
     "colorful-console-log": "^1.0.1",
     "cors": "^2.8.5",
     "dot": "^1.1.3",
