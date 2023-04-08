@@ -7,7 +7,6 @@ import mailerService from '../../utils/mailer';
 import { readCSV } from '../../utils/csv/csv';
 
 const sleep = promisify(setTimeout);
-
 export async function sendMail(data: any) {
   try {
     await mailerService(data.template, data.subject, data, data.email);
